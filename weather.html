@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<script src="config.js"></script>
+
 <div class="card">
     <div class="search">
         <input type="text" placeholder="enter city name" spellcheck="false">
@@ -40,7 +43,7 @@
 </div>
 
 <script>
-    const apiKey = "bf2e7b59d3ea115b1435d8029dd836c1";
+    const apiKey = key;
     const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
     const searchBox = document.querySelector(".search input");
